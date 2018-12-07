@@ -7,7 +7,7 @@ import java.util.Map;
 @Component
 public class BootStrapStart implements CommandLineRunner{
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args){
         Map<String, EventHandler> map= ApplicationSupport.getApp().getBeansOfType(EventHandler.class);
         map.forEach((k,v)->{
             EventHandlerHolder.put(k,v);
