@@ -27,11 +27,11 @@ public class ConfigManager {
         return value;
     }
 
-    public static String getValue(String key, String value) {
-        assert value != null;
-        String valueTemp = getValue(key);
-        return StringUtils.isEmpty(valueTemp) ? value : valueTemp;
-    }
+//    public static String getValue(String key, String value) {
+//        assert value != null;
+//        String valueTemp = getValue(key);
+//        return StringUtils.isEmpty(valueTemp) ? value : valueTemp;
+//    }
 
     public static int getInt(String key, int value) {
         String vl = getValue(key);
@@ -42,10 +42,10 @@ public class ConfigManager {
 
     }
 
-    public static String getString(String s, String cron) {
+    public static String getString(String s, String value) {
         String vl = getValue(s);
         if (StringUtils.isEmpty(vl)) {
-            return cron;
+            return value;
         }
         return vl;
     }

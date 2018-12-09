@@ -12,12 +12,12 @@ public class NameUtil {
         } else {
             synchronized (NameUtil.class) {
                 if (StringUtils.isEmpty(cachedName)) {
-                    String application = ConfigManager.getValue("spring.application.name", "");
+                    String application = ConfigManager.getString("spring.application.name", "");
                     if (!StringUtils.isEmpty(application)) {
                         cachedName = application;
                         return cachedName;
                     }
-                    cachedName = ConfigManager.getValue("sar.name", "amethyst-client");
+                    cachedName = ConfigManager.getString("sar.name", "amethyst-client");
                     return cachedName;
                 }
             }

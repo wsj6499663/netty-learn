@@ -34,7 +34,7 @@ public class NettyClientImpl implements NettyClient {
 
     @Override
     public ChannelFuture connect(InetSocketAddress inetSocketAddress) {
-        return null;
+        return this.bootstrap.connect(inetSocketAddress).syncUninterruptibly();
     }
 
     @Override

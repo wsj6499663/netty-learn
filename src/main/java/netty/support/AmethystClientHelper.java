@@ -7,26 +7,38 @@ import io.netty.util.TimerTask;
 import lombok.extern.slf4j.Slf4j;
 import netty.clientnet.NettyClient;
 import netty.clientnet.NettyClientImpl;
+import netty.config.ConfigManager;
 import netty.config.JobConfigBuilder;
 import netty.consts.MsgEnum;
 import netty.net.ClientNetworkService;
+import netty.request.BrokerMetadataRequest;
 import netty.request.JoinGroupRequest;
 import netty.response.BrokerMetadataResponse;
+import netty.util.ClientUtils;
+import netty.util.NameUtil;
+import netty.util.ProtobufUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import javax.annotation.PostConstruct;
 import java.io.Closeable;
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.util.List;
+import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 @Service
 @Slf4j
 public class AmethystClientHelper implements Closeable {
+    private final Random random = new Random();
+    private InetSocketAddress currentAddress;
     private volatile boolean isConnected = false;
     private volatile boolean isClose = false;//整个netty client 是否销毁
     private volatile ChannelFuture channelFuture;//just a  connect flag
     private final HashedWheelTimer hashedWheelTimer = new HashedWheelTimer();
+    //resident request
     private ConcurrentHashMap<Long, SynFuture<BrokerMetadataResponse>> concurrentHashMap = new ConcurrentHashMap<>();
     @Autowired
     private UniqueIdGeneratorService uniqueIdGeneratorService;
@@ -87,6 +99,33 @@ public class AmethystClientHelper implements Closeable {
 
     //channel connect
     private void tryConnect(MsgEnum joinGroupReq, JoinGroupRequest joinGroupRequest) {
+        //parsing the server connecting address
+        List<InetSocketAddress> urls = ClientUtils.parseAndValidateAddresses(ConfigManager.getString("amethyst.bootstrap.servers", "0.0.0.0"));
+        while(urls.size()>0 && !isClose){
+            this.currentAddress = (InetSocketAddress)urls.get(this.random.nextInt(10000) % urls.size());
+            ChannelFuture channelFuture=nettyClient.connect(this.currentAddress);
+            connectToGroupLeader(channelFuture,joinGroupReq,joinGroupRequest);
+        }
+    }
+
+    private void connectToGroupLeader(ChannelFuture channelFuture, MsgEnum joinGroupReq, JoinGroupRequest joinGroupRequest) {
+        BrokerMetadataResponse response;
+        for(response=brokerMetadataRequest(channelFuture);;)
+
+    }
+
+    private BrokerMetadataResponse brokerMetadataRequest(ChannelFuture channelFuture) {
+        BrokerMetadataRequest request = new BrokerMetadataRequest();
+        request.setSarName(NameUtil.getName());
+        SynFuture<BrokerMetadataResponse> synFuture=new SynFuture<BrokerMetadataResponse>();
+        long requestId=uniqueIdGeneratorService.nextId();
+        concurrentHashMap.put(requestId,synFuture);
+        trySend(channelFuture,MsgEnum.BROKER_METADATA_REQ.getCode(),requestId,request);
+
+    }
+
+    private <T> void trySend(ChannelFuture channelFuture, String messageType, long requestId, T request) {
+        channelFuture.channel().writeAndFlush(buildSendMessage(messageType,requestId, ProtobufUtil.serializer(request)));
     }
 
     //销毁整个netty
