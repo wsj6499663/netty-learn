@@ -1,11 +1,12 @@
 package netty.consts;
 
 import lombok.Getter;
+import netty.request.JobLogRequest;
 import netty.request.JobTriggerRequest;
 
 public enum MsgEnum {
     JOB_TRIGGER_REQ("06", JobTriggerRequest.class, "07", "job trigger request"),
-    ;
+    JOB_LOG_REQ("08", JobLogRequest.class, "09", "job log request");
     private String code;
     private Class clz;
     private String nextCode;
