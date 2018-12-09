@@ -1,5 +1,5 @@
 import netty.context.EventHandlerHolder;
-import netty.handler.EventHandler;
+import netty.handler.event.EventHandler;
 import netty.support.ApplicationSupport;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

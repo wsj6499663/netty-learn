@@ -1,6 +1,6 @@
 package netty.context;
 
-import netty.handler.EventHandler;
+import netty.handler.event.EventHandler;
 import org.springframework.util.StringUtils;
 
 import java.util.Map;

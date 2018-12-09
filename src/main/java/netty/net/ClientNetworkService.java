@@ -8,6 +8,8 @@ import netty.support.UniqueIdGeneratorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
+
 @Service
 public class ClientNetworkService {
 
@@ -16,29 +18,30 @@ public class ClientNetworkService {
     private final AmethystClientHelper amethystClientHelper;
 
     @Autowired
-    public ClientNetworkService(UniqueIdGeneratorService uniqueIdGeneratorService,AmethystClientHelper amethystClientHelper) {
-        this.amethystClientHelper=amethystClientHelper;
-        this.uniqueIdGeneratorService=uniqueIdGeneratorService;
-        this.retryMessageQueue=new RetryMessageQueue<>(msg->{
-            send(MsgEnum.JOB_LOG_REQ,msg.getId(),msg.getData());
+    public ClientNetworkService(UniqueIdGeneratorService uniqueIdGeneratorService, AmethystClientHelper amethystClientHelper) {
+        this.amethystClientHelper = amethystClientHelper;
+        this.uniqueIdGeneratorService = uniqueIdGeneratorService;
+        this.retryMessageQueue = new RetryMessageQueue<>(msg -> {
+            send(MsgEnum.JOB_LOG_REQ, msg.getId(), msg.getData());
             return true;
         });
     }
 
-    public void init(){
-        synchronized (ClientNetworkService.class){
+    @PostConstruct
+    public void init() {
+        synchronized (ClientNetworkService.class) {
             retryMessageQueue.init();
         }
     }
 
     public void send(MsgEnum jobLogReq, long id, Object data) {
-        amethystClientHelper.send(jobLogReq,id,data);
+        amethystClientHelper.send(jobLogReq, id, data);
     }
 
     public void sendAndRetry(MsgEnum jobLogReq, Object data) {
-        long id=uniqueIdGeneratorService.nextId();
+        long id = uniqueIdGeneratorService.nextId();
         RetryMessage<Object> message = new RetryMessage(id, data);
-         retryMessageQueue.offer(message);
+        retryMessageQueue.offer(message);
 
 
     }

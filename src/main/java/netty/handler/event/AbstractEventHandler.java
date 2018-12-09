@@ -1,4 +1,4 @@
-package netty.handler;
+package netty.handler.event;
 import netty.context.MessageContext;
 import netty.message.MessageHead;
 import netty.util.ProtobufUtil;

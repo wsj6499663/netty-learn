@@ -1,9 +1,9 @@
-package netty.handler.handlerimpl;
+package netty.handler.event.handlerimpl;
 
 import lombok.extern.slf4j.Slf4j;
 import netty.consts.MsgEnum;
 import netty.consts.ResultEnum;
-import netty.handler.AbstractEventHandler;
+import netty.handler.event.AbstractEventHandler;
 import netty.message.MessageHead;
 import netty.net.ClientNetworkService;
 import netty.request.JobTriggerRequest;
@@ -11,13 +11,12 @@ import netty.response.JobTriggerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Component
 @Slf4j
-public class JobTrigerHandler extends AbstractEventHandler<JobTriggerRequest> {
+public class JobTriggerRequestEventHandler extends AbstractEventHandler<JobTriggerRequest> {
     private volatile ExecutorService executorService;
     @Autowired
     private ClientNetworkService clientNetworkService;

@@ -42,6 +42,22 @@ public class ConfigManager {
 
     }
 
+    public static String getString(String s, String cron) {
+        String vl = getValue(s);
+        if (StringUtils.isEmpty(vl)) {
+            return cron;
+        }
+        return vl;
+    }
+
+    public static boolean getBoolean(String s, boolean disabled) {
+        String vl = getValue(s);
+        if (StringUtils.isEmpty(vl)) {
+            return disabled;
+        }
+        return Boolean.valueOf(s);
+    }
+
 
     private static class Inner {
         private Inner() {
