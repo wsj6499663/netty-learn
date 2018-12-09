@@ -1,12 +1,16 @@
 package netty.consts;
 
-import lombok.Getter;
 import netty.request.JobLogRequest;
 import netty.request.JobTriggerRequest;
+import netty.request.JoinGroupRequest;
+import netty.response.JobTriggerResponse;
 
 public enum MsgEnum {
     JOB_TRIGGER_REQ("06", JobTriggerRequest.class, "07", "job trigger request"),
-    JOB_LOG_REQ("08", JobLogRequest.class, "09", "job log request");
+    JOB_LOG_REQ("08", JobLogRequest.class, "09", "job log request"),
+    JOIN_GROUP_REQ("04", JoinGroupRequest.class, "05", "join group request"),
+    JOB_TRIGGER_RESP("07", JobTriggerResponse.class, (String)null, "job trigger response");
+
     private String code;
     private Class clz;
     private String nextCode;

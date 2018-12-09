@@ -1,10 +1,10 @@
 package netty.response;
 
 import lombok.Data;
-
 import java.util.List;
+
 @Data
-public class JobReponse extends CommonResponse {
+public class JobTriggerResponse extends CommonResponse {
     private String sarName;
     private String jobName;
     private long execId;

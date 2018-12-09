@@ -5,8 +5,10 @@ import netty.consts.MsgEnum;
 import netty.consts.ResultEnum;
 import netty.handler.AbstractEventHandler;
 import netty.message.MessageHead;
+import netty.net.ClientNetworkService;
 import netty.request.JobTriggerRequest;
-import netty.response.JobReponse;
+import netty.response.JobTriggerResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
@@ -17,11 +19,14 @@ import java.util.concurrent.Executors;
 @Slf4j
 public class JobTrigerHandler extends AbstractEventHandler<JobTriggerRequest> {
     private volatile ExecutorService executorService;
+    @Autowired
+    private ClientNetworkService clientNetworkService;
 
-    private static class Inner{
-        private static final ExecutorService ex= Executors.newCachedThreadPool();
+    private static class Inner {
+        private static final ExecutorService ex = Executors.newCachedThreadPool();
     }
-    private  ExecutorService getInstance(){
+
+    private ExecutorService getInstance() {
         return Inner.ex;
     }
 
@@ -45,7 +50,7 @@ public class JobTrigerHandler extends AbstractEventHandler<JobTriggerRequest> {
     }
 
     private void report(long requestId, JobTriggerRequest data, ResultEnum codeEnum, String s) {
-        JobReponse jobTriggerResponse = new JobReponse();
+        JobTriggerResponse jobTriggerResponse = new JobTriggerResponse();
         jobTriggerResponse.setResultCode(codeEnum.getCode());
         jobTriggerResponse.setResultMsg(codeEnum.getCode() + s);
         jobTriggerResponse.setSarName(data.getSarName());
@@ -55,7 +60,7 @@ public class JobTrigerHandler extends AbstractEventHandler<JobTriggerRequest> {
         jobTriggerResponse.setShardingItems(data.getShardingItems());
         jobTriggerResponse.setJobParameter(data.getJobParameter());
         log.debug("JobTriggerResponse requestId:{}, {}", requestId, jobTriggerResponse);
-
+        clientNetworkService.send(MsgEnum.JOB_TRIGGER_RESP,requestId,jobTriggerResponse);
     }
 
     @Override

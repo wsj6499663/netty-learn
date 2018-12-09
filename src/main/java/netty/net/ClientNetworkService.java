@@ -31,7 +31,7 @@ public class ClientNetworkService {
         }
     }
 
-    private void send(MsgEnum jobLogReq, long id, Object data) {
+    public void send(MsgEnum jobLogReq, long id, Object data) {
         amethystClientHelper.send(jobLogReq,id,data);
     }
 
