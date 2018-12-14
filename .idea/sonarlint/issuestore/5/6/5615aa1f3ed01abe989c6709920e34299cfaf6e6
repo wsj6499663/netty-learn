@@ -1,0 +1,30 @@
+
+xsquid:S1192M"ZUse already-defined constant 'SHARDING_TOTAL_COUNT' instead of duplicating its value here.(ô÷ÎÔ8å³–ù,
+zsquid:S1192H"WUse already-defined constant 'SHARDING_STRATEGY' instead of duplicating its value here.(—Ïããúÿÿÿÿ8å³–ù,
+Ksquid:S1068"-Remove this unused "OVERWRITE" private field.(Ùõ±8‡íîˆù,
+|squid:S1192L"^Use already-defined constant 'SHARDING_ITEM_PARAMETERS' instead of duplicating its value here.(Ä³´À8å³–ù,
+[squid:S1068"8Remove this unused "SHARDING_TOTAL_COUNT" private field.(ÏÃ™·üÿÿÿÿ8‡íîˆù,
+Xsquid:S1068 "5Remove this unused "SHARDING_STRATEGY" private field.(şóçŒÿÿÿÿÿ8‡íîˆù,
+Lsquid:S1068")Remove this unused "SPLIT" private field.(¸¨ıïøÿÿÿÿ8‡íîˆù,
+tsquid:S1192D"QUse already-defined constant 'DESCRIPTION' instead of duplicating its value here.(™©€Ûøÿÿÿÿ8å³–ù,
+Xsquid:S1068"5Remove this unused "STREAMING_PROCESS" private field.(çäÉÿÿÿÿÿ8‡íîˆù,
+Osquid:S1068""1Remove this unused "PROTOCOL_TYPE" private field.(Ùéüå8‡íîˆù,
+usquid:S1192J"WUse already-defined constant 'MONITOR_EXECUTION' instead of duplicating its value here.(ªå¼ì8å³–ù,
+Tsquid:S1068"1Remove this unused "JOB_PARAMETER" private field.(Õ…€‹şÿÿÿÿ8‡íîˆù,
+Fsquid:S1068"(Remove this unused "CRON" private field.(˜ÉÆ8‡íîˆù,
+Zsquid:S1068"<Remove this unused "SHARDING_ITEM_PARAMETERS" private field.(¹ø­8‡íîˆù,
+qsquid:S1192G"SUse already-defined constant 'JOB_PARAMETER' instead of duplicating its value here.(‚øüß8å³–ù,
+Ssquid:S1068"5Remove this unused "MONITOR_EXECUTION" private field.(¥êÎï8‡íîˆù,
+Ksquid:S1068"(Remove this unused "TYPE" private field.(ì®è£ıÿÿÿÿ8‡íîˆù,
+Nsquid:S1068"+Remove this unused "MISFIRE" private field.(ØøçÜşÿÿÿÿ8‡íîˆù,
+Hsquid:S1068"*Remove this unused "PREFIX" private field.(ÁÆìè8‡íîˆù,
+lsquid:S1192E"NUse already-defined constant 'DISABLED' instead of duplicating its value here.(ÀóÆ8å³–ù,
+vsquid:S1192O"SUse already-defined constant 'PROTOCOL_TYPE' instead of duplicating its value here.(ÎŸ®»ûÿÿÿÿ8å³–ù,
+usquid:S1192N"WUse already-defined constant 'STREAMING_PROCESS' instead of duplicating its value here.(´£Ï´8å³–ù,
+Osquid:S1068",Remove this unused "FAILOVER" private field.(˜Ú­ˆşÿÿÿÿ8‡íîˆù,
+ksquid:S1192F"NUse already-defined constant 'FAILOVER' instead of duplicating its value here.(÷½âP8å³–ù,
+msquid:S1192K"OUse already-defined constant 'OVERWRITE' instead of duplicating its value here.(£ÁÉù8å³–ù,
+psquid:S1192I"MUse already-defined constant 'MISFIRE' instead of duplicating its value here.(«Ó ôüÿÿÿÿ8å³–ù,
+Jsquid:S1068",Remove this unused "DISABLED" private field.(†„Ş¤8‡íîˆù,
+Msquid:S1068!"/Remove this unused "DESCRIPTION" private field.(Âƒü˜8‡íîˆù,
+]squid:S1118":Add a private constructor to hide the implicit public one.(ÂàøÀşÿÿÿÿ8‡íîˆù,
