@@ -6,6 +6,7 @@ import netty.request.BrokerMetadataRequest;
 import netty.request.JobLogRequest;
 import netty.request.JobTriggerRequest;
 import netty.request.JoinGroupRequest;
+import netty.response.BrokerMetadataResponse;
 import netty.response.JobTriggerResponse;
 
 @AllArgsConstructor
@@ -23,7 +24,11 @@ public enum MsgEnum {
     /**
      * heartbeat response message type
      */
-    HEARTBEAT_RESP("01", null, null, "heartbeat response");
+    HEARTBEAT_RESP("01", null, null, "heartbeat response"),
+    /**
+     * broker metadata response message type
+     */
+    BROKER_METADATA_RESP("03", BrokerMetadataResponse.class, null, "broker metadata response");
 
 
     private String code;

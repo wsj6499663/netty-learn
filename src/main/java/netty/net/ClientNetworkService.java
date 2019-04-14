@@ -76,7 +76,15 @@ public class ClientNetworkService {
         retryMessageQueue.offer(message);
     }
 
-    public void receive(MessagePackProtobuf.Message msg) {
-
+    public void receive(MessagePackProtobuf.Message data) {
+        MessageContext message = new MessageContext(data.getMessageType(), data.getRequestId(), data.getMessage().toByteArray());
+        //server对于初始化连接的元数据请求的回应，不属于业务数据，需要单独处理
+        if (data.getMessageType().equals(MsgEnum.BROKER_METADATA_RESP.getCode())) {
+            amethystClientHelper.receive(data);
+        } else {
+            //TODO
+            //业务数据push进ringbuffer
+            inputQueue.push(message);
+        }
     }
 }

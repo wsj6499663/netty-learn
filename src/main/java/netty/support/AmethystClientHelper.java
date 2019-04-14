@@ -77,6 +77,24 @@ public class AmethystClientHelper implements Closeable {
 
     }
 
+    public void receive(MessagePackProtobuf.Message data) {
+        brokerMetadataResponse(data.getRequestId(), ProtobufUtil.deserialize(data.getMessage().toByteArray(), BrokerMetadataResponse.class));
+
+    }
+
+    private void brokerMetadataResponse(long requestId, BrokerMetadataResponse response) {
+        if (requestId == 0) {
+            requestId = 1;
+        }
+        //TODO
+        SynFuture<BrokerMetadataResponse> future = concurrentHashMap.get(requestId);
+        if (null == future) {
+            log.warn("Not found brokerMetadataRequest, maybe discarded when request is timeout. " + response);
+        } else {
+            future.setResponse(response);
+        }
+    }
+
     private class ConnectTimerTask implements TimerTask {
 
         MsgEnum joinGroupReq;
