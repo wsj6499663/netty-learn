@@ -15,6 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 @Slf4j
+/**
+ * 调度任务执行配置
+ */
 public class JobConfigBuilder {
     private static final String PREFIX = "amethyst";
     private static final String SPLIT = ".";
@@ -39,6 +42,7 @@ public class JobConfigBuilder {
             synchronized (JobConfigBuilder.class) {
                 if (CollectionUtils.isEmpty(joinGroupRequest.getJobs())) {
                     List<JobConfig> jobs = Lists.newArrayList();
+                    //TODO
                     Iterator<Map.Entry<String, JobHandler>> iterator = JobBeanHolder.entrySet().iterator();
                     while (iterator.hasNext()) {
                         Map.Entry<String, JobHandler> me = iterator.next();
@@ -53,6 +57,7 @@ public class JobConfigBuilder {
         return joinGroupRequest;
     }
 
+    //客户端业务配置(yml)
     private static JobConfig fill(String jobName, JobHandler jobHandler) {
         JobConfig jobConfig = new JobConfig();
         String prefix = "amethyst." + jobName + ".";

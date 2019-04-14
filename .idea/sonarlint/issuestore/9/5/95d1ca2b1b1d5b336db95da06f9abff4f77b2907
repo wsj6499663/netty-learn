@@ -1,0 +1,6 @@
+
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Èú‘³üÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(óµÿ’
+usquid:S2259"YA "NullPointerException" could be thrown; "networkInterfaceEnumeration" is nullable here.(ýïë¹þÿÿÿÿ
+]squid:UselessImportCheck"9Remove this unused import 'com.google.common.base.Enums'.(ÎüÕŒ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

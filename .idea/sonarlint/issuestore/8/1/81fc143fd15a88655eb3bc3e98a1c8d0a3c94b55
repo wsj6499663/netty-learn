@@ -1,0 +1,3 @@
+
+§%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Ø∂Öú
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(Å‡Çæ

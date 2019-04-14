@@ -1,7 +1,5 @@
 package netty.support;
 
-import lombok.Setter;
-
 import java.util.concurrent.*;
 
 public class SynFuture<T> implements Future<T> {

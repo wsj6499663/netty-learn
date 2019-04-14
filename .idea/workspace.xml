@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd92dc2-544b-4fb4-87d1-f1651833f5b4" name="Default Changelist" comment="" />
+    <list default="true" id="bcd92dc2-544b-4fb4-87d1-f1651833f5b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/disruptor/AbstractEventDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/disruptor/AbstractExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/disruptor/MsgFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/error/AmethystException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/util/ThreadFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/amethyst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/amethyst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c1533172ba43a07b43a9727378c0387c1a84885" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c1533172ba43a07b43a9727378c0387c1a84885" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16cfad1d11ae4f1b481881c5b1494defc2e3805d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16cfad1d11ae4f1b481881c5b1494defc2e3805d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/270093749ef97573e1dbd6a626eab40150bb6e87" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/270093749ef97573e1dbd6a626eab40150bb6e87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4517c195e594fd4a9fce23e0e6ba5239a103fe13" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4517c195e594fd4a9fce23e0e6ba5239a103fe13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a023a1749d381462a4d54c21ea7242415181a2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a023a1749d381462a4d54c21ea7242415181a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c9f990da455bba02c7715bfc3de738d63427d81" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c9f990da455bba02c7715bfc3de738d63427d81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/958b5ef3a161ca359249a3a63114aeda9b6699fb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/958b5ef3a161ca359249a3a63114aeda9b6699fb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce47139405aa55a8fb4333a7619af72a9713c26f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1ae0bebb41392a72847fd3f47cc91e1c0283237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebf10faaf7d8404f728ef702b417289a558c403a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebf10faaf7d8404f728ef702b417289a558c403a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BootStrapStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BootStrapStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/consts/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/consts/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/context/MessageContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/context/MessageContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/message/MessagePacketProtobuf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/message/RetryMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/message/RetryMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/request/BrokerMetadataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/request/BrokerMetadataRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/response/JobTriggerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/response/JobTriggerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/AmethystClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/AmethystClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/ApplicationSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/ApplicationSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/RetryMessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/RetryMessageQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/util/ClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/util/ClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/util/ProtobufUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/util/ProtobufUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/util/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/util/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/temp/TempStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/temp/TempStart.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +64,43 @@
     <session id="964992875">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="127" />
-          <entry key="xml" value="3" />
+          <entry key="class" value="5" />
+          <entry key="java" value="426" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="127" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="426" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8888" />
+          <entry key="java" value="15470" />
           <entry key="xml" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8888" />
+          <entry key="JAVA" value="15470" />
           <entry key="XML" value="95" />
         </counts>
       </usages-collector>
@@ -52,33 +108,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/AmethystClientHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1264">
-              <caret line="127" column="89" lean-forward="true" selection-start-line="127" selection-start-column="89" selection-end-line="127" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4204#4228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/Channel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="92" lean-forward="true" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+            <state relative-caret-position="75">
+              <caret line="68" column="59" lean-forward="true" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,58 +120,56 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/BrokerMetadataRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/JobTypeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/JoinGroupRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/util/ClientUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/response/BrokerMetadataResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/job/JobHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -145,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="550">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +187,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
+            <state relative-caret-position="398">
+              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <folding>
+                <element signature="e#2510#2511#0" expanded="true" />
+                <element signature="e#2572#2573#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,8 +214,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -178,6 +223,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>concurrentHashMap</find>
+      <find>chargeFee</find>
+      <find>payFee</find>
+      <find>userInfo</find>
+      <find>BROKER_METADATA_REQ</find>
+      <find>REDIRECT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,57 +237,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netty/message/MessageHead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/context/MessageContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/util/ProtobufUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/eventhandler/AbstractEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/request/JobTriggerRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/handler/AbstractEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/context/EventHandlerHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/response/CommonResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/response/JobReponse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/temp/TempStart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BootStrapStart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/consts/ResultEnum.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/core/AmethystJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/consts/JobDetailStatusEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/config/PropertiesResolveService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/util/LocalHostUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/util/IdWorkerUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/request/JobLogRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/core/AbstractAmethystJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/util/ThreadUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/message/RetryMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/support/RetryMessageQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/message/MessagePacketProtobuf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/response/BrokerMetadataResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/config/JobConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/request/JoinGroupRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/response/JobTriggerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/handler/handlerimpl/JobTrigerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/handler/handlerimpl/JobTriggerRequestEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/context/JobContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/handler/job/JobHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/consts/JobTypeEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/config/ConfigManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/util/NameUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/context/MessageContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/AbstractEventDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/AbstractExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/MsgFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/util/ThreadFactoryBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/util/ThreadUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/error/AmethystException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/support/ApplicationSupport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/temp/TempStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/response/JobTriggerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/response/CommonResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/consts/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/config/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/message/RetryMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/support/RetryMessageQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/util/ClientUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/util/ProtobufUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/protobuf/MessagePackProtobuf.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/request/BrokerMetadataRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/code/ResultCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/InEventDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/EventExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorQueueBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorTemplateBuilder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/temp/IdentityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BootStrapStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/IdleStateTriggerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/support/AmethystClientHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java" />
       </list>
     </option>
   </component>
@@ -267,12 +317,13 @@
     </treeState>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_HOME" />
+    <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="810" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="845" />
+    <option name="y" value="190" />
+    <option name="width" value="1240" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -328,6 +379,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,7 +424,46 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="disruptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="handlerimpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
@@ -393,6 +492,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amethyst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
@@ -446,93 +554,31 @@
             <path>
               <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
               <item name="amethyst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="objenesis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amethyst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544370020360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555256543864" />
     <property name="last_opened_file_path" value="D:/baoquan/pos-online-share" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Git ToolBox" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.protobuf" />
+      <recent name="netty.error" />
+      <recent name="netty.util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -546,7 +592,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IdentityTest">
+    <configuration name="IdentityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp.IdentityTest" />
+      <module name="amethyst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TempStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temp.TempStart" />
       <module name="amethyst" />
@@ -560,8 +619,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TempStart" />
+      <item itemvalue="Application.IdentityTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IdentityTest" />
         <item itemvalue="Application.TempStart" />
       </list>
     </recent_temporary>
@@ -591,8 +655,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -602,16 +667,16 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32842416" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32842416" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32904884" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28718704" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32904884" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32842416" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Tail" order="14" />
@@ -626,6 +691,41 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
       <window_info anchor="right" id="Key Promoter X" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3558981" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32842416" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32842416" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32842416" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32904884" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2857143" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32842416" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="JProfiler" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Key Promoter X" order="8" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -656,390 +756,329 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/core/AmethystJob.java">
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/JobLogRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/core/AbstractAmethystJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/util/ThreadUtil.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/BasicExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/message/RetryMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/BusySpinWaitStrategy.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/EventFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="33" column="72" lean-forward="true" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+        <state relative-caret-position="152">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/message/MessagePacketProtobuf.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/MultiProducerSequencer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="-468">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/response/CommonResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3610">
-          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/MessageContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/EventHandlerHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/response/JobTriggerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/response/JobReponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/RetryMessageQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenrespository/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-          <folding>
-            <element signature="e#2918#2919#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/JobContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/job/JobHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/util/internal/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="414" column="26" selection-start-line="414" selection-start-column="26" selection-end-line="414" selection-end-column="26" />
-          <folding>
-            <element signature="e#15092#15093#0" expanded="true" />
-            <element signature="e#15139#15140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/JobTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/JoinGroupRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/util/TimerTask.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/TimeUnit.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/EventProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="16" />
+        <state relative-caret-position="152">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/util/HashedWheelTimer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/temp/IdentityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4540">
-          <caret line="399" column="74" lean-forward="true" selection-start-line="399" selection-start-column="74" selection-end-line="399" selection-end-column="74" />
+        <state relative-caret-position="588">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding>
-            <element signature="e#5324#5325#0" expanded="true" />
-            <element signature="e#5378#5379#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/util/NameUtil.java">
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/ConsumerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/Disruptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/IdentityHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="1176" column="31" selection-start-line="1176" selection-start-column="31" selection-end-line="1176" selection-end-column="31" />
+          <folding>
+            <element signature="e#8439#8440#0" expanded="true" />
+            <element signature="e#8477#8478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="189" column="12" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/WorkerPoolInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/WorkerPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/RingBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/EventProcessorInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar!/com/lmax/disruptor/dsl/ConsumerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/disruptor/DisruptorTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="366" column="13" selection-start-line="366" selection-start-column="13" selection-end-line="366" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/nio/channels/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufVarint32LengthFieldPrepender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="372" column="20" selection-start-line="372" selection-start-column="20" selection-end-line="372" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar!/com/google/protobuf/GeneratedMessageV3.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="1952" column="29" selection-start-line="1952" selection-start-column="29" selection-end-line="1952" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/protobuf/MessagePackProtobuf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <caret line="601" column="21" selection-start-line="601" selection-start-column="21" selection-end-line="601" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#23463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="76" selection-start-line="76" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/UniqueIdGeneratorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/ConfigManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/AmethystClientInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="94">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/util/ClientUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/IdleStateTriggerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="436">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BootStrapStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="89" lean-forward="true" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/AbstractEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="257" column="25" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+          <folding>
+            <element signature="e#8248#8249#0" expanded="true" />
+            <element signature="e#8298#8299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1048,72 +1087,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/clientnet/NettyClientImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="550">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/response/BrokerMetadataResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/event/handlerimpl/JobTriggerRequestEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="398">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/SynFuture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/net/ClientNetworkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="398">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="e#2572#2573#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/BrokerMetadataRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/MsgEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="92" lean-forward="true" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenrespository/io/netty/netty-all/4.0.52.Final/netty-all-4.0.52.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/support/AmethystClientHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
-          <caret line="127" column="89" lean-forward="true" selection-start-line="127" selection-start-column="89" selection-end-line="127" selection-end-column="89" />
+        <state relative-caret-position="75">
+          <caret line="68" column="59" lean-forward="true" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4204#4228#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/request/JoinGroupRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/context/JobBeanHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/handler/job/JobHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/consts/JobTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/config/JobConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="36" />
         </state>
       </provider>
     </entry>

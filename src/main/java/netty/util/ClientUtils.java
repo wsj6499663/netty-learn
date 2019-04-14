@@ -1,5 +1,6 @@
 package netty.util;
 
+import com.google.common.base.Predicates;
 import org.springframework.util.StringUtils;
 import java.net.InetSocketAddress;
 import java.net.URI;
@@ -10,7 +11,7 @@ import java.util.List;
 
 public class ClientUtils {
     public static List<InetSocketAddress> parseAndValidateAddresses(String addrs) {
-        assert !StringUtils.isEmpty(addrs);
+        Predicates.notNull().apply(addrs);
         List<InetSocketAddress> addresses = new ArrayList();
         Arrays.asList(addrs.split(",")).stream().map(adr -> {
             try {

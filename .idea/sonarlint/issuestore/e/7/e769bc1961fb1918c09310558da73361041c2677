@@ -1,0 +1,24 @@
+
+Ksquid:EmptyStatementUsageChecka"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Fsquid:S1068	"0Remove this unused "workerIdBits" private field.(¿ÂŒd
+Psquid:S1068
+"4Remove this unused "datacenterIdBits" private field.(¡ÕıŞÿÿÿÿÿ
+Fsquid:S1068"/Remove this unused "maxWorkerId" private field.(Í¡ š
+Osquid:S1068"3Remove this unused "maxDatacenterId" private field.(Ÿ£·‡úÿÿÿÿ
+Gsquid:S1068"0Remove this unused "sequenceBits" private field.(•½ˆõ
+Msquid:S1068"1Remove this unused "workerIdShift" private field.(¿¦Öÿÿÿÿÿ
+Qsquid:S1068"5Remove this unused "datacenterIdShift" private field.(•ŸÙåùÿÿÿÿ
+Msquid:S1068"6Remove this unused "timestampLeftShift" private field.(ÃşÆÎ
+Lsquid:S1068"0Remove this unused "sequenceMask" private field.(ä§Œñûÿÿÿÿ
+qsquid:S1488B"ZImmediately return this expression instead of assigning it to the temporary variable "id".(Ş¬´·
+qsquid:S1488U"ZImmediately return this expression instead of assigning it to the temporary variable "id".(Áæ”
+qsquid:S00115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿ÂŒd
+wsquid:S00115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡ÕıŞÿÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í¡ š
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ£·‡úÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•½ˆõ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿¦Öÿÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•ŸÙåùÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÃşÆÎ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ä§Œñûÿÿÿÿ

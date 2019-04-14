@@ -1,7 +1,7 @@
 package netty.context;
 
+import com.google.common.base.Predicates;
 import netty.handler.job.JobHandler;
-import org.springframework.util.StringUtils;
 
 import java.util.Map;
 import java.util.Set;
@@ -14,9 +14,14 @@ public class JobBeanHolder {
         private static final JobBeanHolder job = new JobBeanHolder();
     }
 
+    /**
+     *
+     * @param name job Name
+     * @param jobHandler
+     */
     public static void put(String name, JobHandler jobHandler) {
-        assert !StringUtils.isEmpty(name);
-        assert jobHandler != null;
+        Predicates.notNull().apply(name);
+        Predicates.notNull().apply(jobHandler);
         Inner.job.map.put(name, jobHandler);
 
     }

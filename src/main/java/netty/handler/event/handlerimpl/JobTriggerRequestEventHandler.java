@@ -11,23 +11,14 @@ import netty.response.JobTriggerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 @Component
 @Slf4j
 public class JobTriggerRequestEventHandler extends AbstractEventHandler<JobTriggerRequest> {
-    private volatile ExecutorService executorService;
+
     @Autowired
     private ClientNetworkService clientNetworkService;
 
-    private static class Inner {
-        private static final ExecutorService ex = Executors.newCachedThreadPool();
-    }
-
-    private ExecutorService getInstance() {
-        return Inner.ex;
-    }
 
     @Override
     protected Class<JobTriggerRequest> resolveGeneric() {
@@ -59,7 +50,7 @@ public class JobTriggerRequestEventHandler extends AbstractEventHandler<JobTrigg
         jobTriggerResponse.setShardingItems(data.getShardingItems());
         jobTriggerResponse.setJobParameter(data.getJobParameter());
         log.debug("JobTriggerResponse requestId:{}, {}", requestId, jobTriggerResponse);
-        clientNetworkService.send(MsgEnum.JOB_TRIGGER_RESP,requestId,jobTriggerResponse);
+        clientNetworkService.send(MsgEnum.JOB_TRIGGER_RESP, requestId, jobTriggerResponse);
     }
 
     @Override

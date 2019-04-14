@@ -1,5 +1,6 @@
 package netty.config;
 
+import com.google.common.base.Predicates;
 import netty.support.ApplicationSupport;
 import org.springframework.util.StringUtils;
 
@@ -12,7 +13,7 @@ public class ConfigManager {
 
     private ConfigManager() {
         propertiesResolveService = ApplicationSupport.getBeanByType(PropertiesResolveService.class);
-        assert propertiesResolveService != null;
+        Predicates.notNull().apply(propertiesResolveService);
     }
 
     private static String getValue(String key) {
@@ -26,12 +27,6 @@ public class ConfigManager {
         }
         return value;
     }
-
-//    public static String getValue(String key, String value) {
-//        assert value != null;
-//        String valueTemp = getValue(key);
-//        return StringUtils.isEmpty(valueTemp) ? value : valueTemp;
-//    }
 
     public static int getInt(String key, int value) {
         String vl = getValue(key);
@@ -60,9 +55,6 @@ public class ConfigManager {
 
 
     private static class Inner {
-        private Inner() {
-        }
-
         private static final ConfigManager config = new ConfigManager();
     }
 

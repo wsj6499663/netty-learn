@@ -1,0 +1,7 @@
+
+isquid:UselessImportCheck">Remove this unused import 'io.netty.util.internal.StringUtil'.(‡ÛÖ†8¾¸ı³˜-
+ksquid:UselessImportCheck"ARemove this unused import 'org.springframework.util.StringUtils'.(Ğôÿ8¡‰ı³˜-
+˜squid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à’˜
+Bsquid:S1481Z"+Remove this unused "unused" local variable.(î§ÂÎ
+Qsquid:S1854Z":Remove this useless assignment to local variable "unused".(î§ÂÎ
+Dsquid:S1604:"(Make this anonymous inner class a lambda(“é«ûúÿÿÿÿ

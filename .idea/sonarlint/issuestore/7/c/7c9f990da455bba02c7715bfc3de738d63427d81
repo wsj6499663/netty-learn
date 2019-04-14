@@ -1,15 +1,20 @@
 
-fsquid:S00101•"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Çş†ä
-™squid:S1186’"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë¨¢
-osquid:HiddenFieldCheckj"ARename "channelFuture" which hides the field declared at line 36.(ÆÃÅÿÿÿÿÿ8Ñö—œù,
-Rsquid:S1905i"4Remove this unnecessary cast to "InetSocketAddress".(’™Â±8ÜÙ’œù,
-squid:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ
-_squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(°­óÓ
-Dsquid:S1172o"&Remove these unused method parameters.(ßëòù8ÿÑ§œù,
-™squid:S1186˜"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış
-Qsquid:S1068*"5Remove this unused "concurrentHashMap" private field.(¦¡½—øÿÿÿÿ
-€squid:S1450$"]Remove the "currentAddress" field and declare it as a local variable in the relevant methods.(È„—ÿÿÿÿÿ8Ğß‘œù,
->squid:S1172’"&Remove these unused method parameters.(Ë¨¢
-Esquid:S3985•"-Remove this unused private "cleanTask" class.(Çş†ä
-\squid:S1155h">Use isEmpty() to check whether the collection is empty or not.(‰ÜÜ¢8¹Íœù,
-Ksquid:S1481p"-Remove this unused "response" local variable.(ãè°Ê8ò»Äœù,
+Gsquid:S3398c")Move this method into "ConnectTimerTask".(§˜Ì­8°Ì•„ -
+Rsquid:S1905g"4Remove this unnecessary cast to "InetSocketAddress".(’™Â±8ÜÙ’œù,
+squid:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ
+fsquid:UnusedPrivateMethods":Remove this unused private "brokerMetadataRequest" method.(©«Á«8íï–‚ -
+™squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë¨¢
+Dsquid:S1172m"&Remove these unused method parameters.(ßëòù8ÿÑ§œù,
+|squid:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ÂÇØıÿÿÿÿ8íï–‚ -
+™squid:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış
+nsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ë­¦şøÿÿÿÿ8íï–‚ -
+isquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(Ì”Á8íï–‚ -
+€squid:S1450""]Remove the "currentAddress" field and declare it as a local variable in the relevant methods.(È„—ÿÿÿÿÿ8Ğß‘œù,
+Esquid:S3985“"-Remove this unused private "cleanTask" class.(Çş†ä
+fsquid:S00101“"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Çş†ä
+\squid:S1155f">Use isEmpty() to check whether the collection is empty or not.(‰ÜÜ¢8¹Íœù,
+>squid:S1172"&Remove these unused method parameters.(Ë¨¢
+osquid:HiddenFieldCheckh"ARename "channelFuture" which hides the field declared at line 37.(ÆÃÅÿÿÿÿÿ8Ñö—œù,
+Dsquid:S1172}"&Remove these unused method parameters.(şÄºç8íï–‚ -
+Ksquid:S1481n"-Remove this unused "response" local variable.(ãè°Ê8ò»Äœù,
+_squid:S00112Œ"FDefine and throw a dedicated exception instead of using a generic one.(°­óÓ
